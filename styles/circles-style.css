@@ -1,32 +1,32 @@
 body {
-    margin: 0px;
     background-color: #FAA307;
-    width: 1152px;
     height: 700px;
+    margin: 0px;
+    width: 1152px;
 }
 
 main {
     background-color: #FAA307;
-    width: 1152px;
-    height: 700px;
     display: flex;
+    height: 700px;
+    width: 1152px;
 }
 
 .squares-container {
+    align-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
 
     
 }
 
 .container {
-    width: 273px;
     height: 220px;
     margin: 10px;
     padding: 20px;
+    width: 273px;
     
     
 }
@@ -40,53 +40,50 @@ main {
 }
 
 .elipse {
-    width: 50px;
-    height: 50px;
     background-color: #748CAB;
     border-radius: 50%;
+    height: 50px;
     margin: 10px;
+    width: 50px;
 }
 
 .container-one {
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: flex-start;
 }
 
 .container-two {
-    display: flex;
+    align-content: flex-start;
     align-items: flex-end;
+    display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
-    align-content: flex-start;
 }
 
 .container-three {
+    align-content: space-between;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
 
 
 }
 
 .container-four {
+    align-content: space-around;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-around;
     
 
 }
 
 .container-five {
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    
-    
-
 }

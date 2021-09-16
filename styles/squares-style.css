@@ -1,17 +1,17 @@
 body {
-    margin: 0px;
     background-color: #370617;
-    width: 1152px;
     height: 700px;
+    margin: 0px;
+    width: 1152px;
 }
 
 main {
-    background-color: #370617;
-    width: 1152px;
-    height: 700px;
-    display: flex;
-    justify-content: center;
     align-content: center;
+    background-color: #370617;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    width: 1152px;
 }
 
 .squares-container {
@@ -23,30 +23,30 @@ main {
 
 .container {
     background-color: #F48C06;
-    width: 468px;
-    height: 160px;
     border-radius: 8px;
-    padding: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 160px;
     margin: 20px;
+    padding: 10px;
+    width: 468px;
 }
 
 .container-one {
+    align-items: flex-end;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
 }
 
 .container-two {
+    align-items: stretch;
     display: flex;
     justify-content: center;
-    align-items: stretch;
 }
 
 .container-three {
+    align-items: center;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .container-four {
@@ -59,8 +59,8 @@ main {
 }
 
 .container-five {
-    display: flex;
     align-items: baseline; 
+    display: flex;
     justify-content: space-evenly;
     
 }
@@ -68,59 +68,59 @@ main {
 /*I seriously have no idea how to make the text in the boxes the baseline for the boxes*/
 
 .container-six {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .box {
-    width: 78px;
-    height: 78px;
     background-color: #9D0208;
     border-radius: 4px;
-    margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 78px;
+    margin: 10px;
+    width: 78px;
     
 }
 
 .box-stretched {
-    width: 78px;
-    height: 120px;
     background-color: #9D0208;
     border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 120px;
     margin: 10px;
     padding-top: 12px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 78px;
     
 }
 
 .box-txt {
+    align-items: flex-start;
     align-self: center;
     padding-top: 12px;
-    align-items: flex-start;
 
 }
 
 p {
-    font-size: 12px;
+    color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
     font-weight: normal;
     line-height: 1.16px;
-    color: #fff;
-    margin-top: 20px;
     margin-left: 12px;
     margin-right: 12px;
+    margin-top: 20px;
     text-align: center;
     
 }
 
 .box-wide-stretched {
-    min-width: 156px;
-    height: 78px;
     background-color: #9D0208;
     border-radius: 4px;
-    margin: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 78px;
+    margin: 10px;
+    min-width: 156px;
 }
 
