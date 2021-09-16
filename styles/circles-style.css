@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    background-color: #FAA307;
+    width: 1152px;
+    height: 700px;
+}
+
+main {
+    background-color: #FAA307;
+    width: 1152px;
+    height: 700px;
+    display: flex;
+}
+
+.squares-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+.container {
+    width: 273px;
+    height: 220px;
+    margin: 10px;
+    padding: 20px;
+    
+    
+}
+
+.black-container {
+    background-color: #03071E;
+}
+
+.maroon-container {
+    background-color: #6A040F;
+}
+
+.elipse {
+    width: 50px;
+    height: 50px;
+    background-color: #748CAB;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.container-two {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
+.container-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+
+}
+
+.container-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    
+
+}
+
+.container-five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+    
+
+}
